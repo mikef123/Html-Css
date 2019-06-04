@@ -1,0 +1,33 @@
+@media screen and (max-width: 600px) {
+    .products {
+        display: inherit;
+        height: auto;
+    }
+    .product {
+        margin-top: auto;
+    }
+    .main_section {
+        padding: 4%;
+    }
+    .cute_section,
+    .section {
+        display: inherit;
+        padding: 10%;
+        width: auto;
+    }
+    .cute_subsection {
+        width: auto;
+        text-align: center;
+    }
+    .cute_image {
+        width: auto;
+        padding: 10% 10% 0;
+    }
+    .subsection {
+        width: auto;
+        margin: 3%;
+    }
+    .subsection img {
+        width: 100%
+    }
+}

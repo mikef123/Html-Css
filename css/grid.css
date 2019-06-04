@@ -1,0 +1,132 @@
+body {
+    height: 100hv;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 4.8em;
+}
+
+.container_product {
+    display: flex;
+}
+
+
+/* .image1,
+.image2,
+.image3, */
+
+.text1,
+.text2,
+.text3 {
+    align-self: center;
+}
+
+.image1,
+.image3 {
+    grid-column: 1 / span 4;
+    text-align: right;
+}
+
+.image2 {
+    grid-column: 9 / span 12;
+}
+
+.image2 img {
+    max-width: 150px;
+}
+
+.image3 img {
+    max-width: 110px;
+}
+
+.text2 {
+    grid-column: 2 / span 7;
+}
+
+.text1,
+.text3 {
+    grid-column: 5 / span 12;
+}
+
+.text1 h1,
+.text2 h1,
+.text3 h1 {
+    font-size: 1.2em;
+    justify-self: left;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    width: auto;
+}
+
+.col-1 {
+    width: 8.3333333333%;
+}
+
+.col-2 {
+    width: 16.6666666666%;
+}
+
+.col-3 {
+    width: 24.9999999999%;
+}
+
+.col-4 {
+    width: 33.3333333332%;
+}
+
+.col-5 {
+    width: 41.6666666665%;
+}
+
+.col-6 {
+    width: 49.9999999998%;
+}
+
+.col-7 {
+    width: 58.3333333331%;
+}
+
+.col-8 {
+    width: 66.6666666664%;
+}
+
+.col-9 {
+    width: 74.9999999997%;
+}
+
+.col-10 {
+    width: 83.333333333%;
+}
+
+.col-11 {
+    width: 91.6666666663%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+    padding: 10px;
+}
